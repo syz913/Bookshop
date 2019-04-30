@@ -152,7 +152,7 @@ public class All_Bill extends JFrame {
 	          btnNewButton_1.setBounds(510, 357, 70, 23);
 	          contentPane.add(btnNewButton_1);
 	          
-	          JLabel lblUnpaid = new JLabel("Bill");
+	          JLabel lblUnpaid = new JLabel("\u603B\u8D26\u5355");
 	          lblUnpaid.setFont(new Font("»ªÎÄ¿¬Ìå", Font.PLAIN, 18));
 	          lblUnpaid.setBounds(200, 10, 97, 25);
 	          contentPane.add(lblUnpaid);
@@ -189,7 +189,7 @@ public class All_Bill extends JFrame {
 	          contentPane.add(textField);
 	          textField.setColumns(10);
 	          
-	          JButton btnNewButton_2 = new JButton("ID");
+	          JButton btnNewButton_2 = new JButton("\u5DE5\u53F7");
 	          btnNewButton_2.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent arg0) {
 	          		String[] a1=new String[size];
@@ -276,7 +276,7 @@ public class All_Bill extends JFrame {
 	          contentPane.add(textField_1);
 	          textField_1.setColumns(10);
 	          
-	          JButton btnImportbill = new JButton("import_bill");
+	          JButton btnImportbill = new JButton("\u8FDB\u8D27\u8D26\u5355");
 	          btnImportbill.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent e) {
 	          		String[] a1=new String[size];
@@ -357,7 +357,7 @@ public class All_Bill extends JFrame {
 	          btnImportbill.setBounds(457, 67, 114, 23);
 	          contentPane.add(btnImportbill);
 	          
-	          JButton btnNewButton_3 = new JButton("Sales_bill");
+	          JButton btnNewButton_3 = new JButton("\u9500\u552E\u8D26\u5355");
 	          btnNewButton_3.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent e) {
 	          		String[] a1=new String[size];

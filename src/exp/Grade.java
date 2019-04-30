@@ -153,12 +153,12 @@ public class Grade extends JFrame {
 	          btnNewButton_1.setBounds(364, 276, 70, 23);
 	          contentPane.add(btnNewButton_1);
 	          
-	          JLabel lblUnpaid = new JLabel("Grade");
+	          JLabel lblUnpaid = new JLabel("\u7EE9\u6548\u6392\u540D");
 	          lblUnpaid.setFont(new Font("»ªÎÄ¿¬Ìå", Font.PLAIN, 18));
 	          lblUnpaid.setBounds(200, 10, 97, 25);
 	          contentPane.add(lblUnpaid);
 	          
-	          JButton btnNewButton = new JButton("promote");
+	          JButton btnNewButton = new JButton("\u5347\u804C");
 	          btnNewButton.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent e) {
 	          		try {  

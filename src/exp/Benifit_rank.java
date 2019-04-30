@@ -150,7 +150,7 @@ public class Benifit_rank extends JFrame {
 	          btnNewButton_1.setBounds(375, 263, 70, 23);
 	          contentPane.add(btnNewButton_1);
 	          
-	          JLabel lblUnpaid = new JLabel("Book");
+	          JLabel lblUnpaid = new JLabel("\u5229\u6DA6\u6392\u540D");
 	          lblUnpaid.setFont(new Font("»ªÎÄ¿¬Ìå", Font.PLAIN, 18));
 	          lblUnpaid.setBounds(200, 10, 97, 25);
 	          contentPane.add(lblUnpaid);

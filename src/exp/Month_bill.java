@@ -159,7 +159,7 @@ public class Month_bill extends JFrame {
 	          btnNewButton_1.setBounds(510, 357, 70, 23);
 	          contentPane.add(btnNewButton_1);
 	          
-	          JLabel lblUnpaid = new JLabel("Bill");
+	          JLabel lblUnpaid = new JLabel("\u6708\u5EA6\u8D26\u5355");
 	          lblUnpaid.setFont(new Font("»ªÎÄ¿¬Ìå", Font.PLAIN, 18));
 	          lblUnpaid.setBounds(200, 10, 97, 25);
 	          contentPane.add(lblUnpaid);
@@ -196,7 +196,7 @@ public class Month_bill extends JFrame {
 	          contentPane.add(textField);
 	          textField.setColumns(10);
 	          
-	          JButton btnNewButton_2 = new JButton("ID");
+	          JButton btnNewButton_2 = new JButton("\u5DE5\u53F7");
 	          btnNewButton_2.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent arg0) {
 	          		String[] a1=new String[size];

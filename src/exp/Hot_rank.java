@@ -144,7 +144,7 @@ public class Hot_rank extends JFrame {
 	          btnNewButton_1.setBounds(375, 239, 70, 23);
 	          contentPane.add(btnNewButton_1);
 	          
-	          JLabel lblUnpaid = new JLabel("Book");
+	          JLabel lblUnpaid = new JLabel("\u70ED\u5EA6\u6392\u540D");
 	          lblUnpaid.setFont(new Font("»ªÎÄ¿¬Ìå", Font.PLAIN, 18));
 	          lblUnpaid.setBounds(200, 10, 97, 25);
 	          contentPane.add(lblUnpaid);

@@ -49,7 +49,7 @@ public class User_function extends JFrame {
 		frame.setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblUsersetting = new JLabel("User_Setting");
+		JLabel lblUsersetting = new JLabel("\u7528\u6237\u7BA1\u7406");
 		lblUsersetting.setFont(new Font("»ªÎÄ¿¬Ìå", Font.PLAIN, 18));
 		lblUsersetting.setBounds(160, 25, 93, 28);
 		contentPane.add(lblUsersetting);

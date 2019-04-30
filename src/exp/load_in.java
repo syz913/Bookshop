@@ -78,7 +78,7 @@ public class load_in extends JFrame {
 		contentPane.setLayout(null);
 		
 		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(47, 45, 398, 155);
+		scrollPane.setBounds(43, 70, 398, 155);
 		contentPane.add(scrollPane);
 		
 		table = new JTable();
@@ -147,16 +147,16 @@ public class load_in extends JFrame {
 	          contentPane.add(btnNewButton_1);
 	          
 	          textField = new JTextField();
-	          textField.setBounds(183, 217, 66, 21);
+	          textField.setBounds(183, 235, 66, 21);
 	          contentPane.add(textField);
 	          textField.setColumns(10);
 	          
 	          JComboBox comboBox = new JComboBox();
 	          comboBox.setModel(new DefaultComboBoxModel(new String[] {"order_ID", "ISBN", "book_name"}));
-	          comboBox.setBounds(64, 216, 84, 23);
+	          comboBox.setBounds(64, 234, 84, 23);
 	          contentPane.add(comboBox);
 	          
-	          JButton btnPay = new JButton("load");
+	          JButton btnPay = new JButton("\u5165\u5E93");
 	          btnPay.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent e) {
 	          	int size=2000;
@@ -212,7 +212,7 @@ public class load_in extends JFrame {
 	          btnPay.setBounds(196, 272, 97, 23);
 	          contentPane.add(btnPay);
 	          
-	          JButton order_2 = new JButton("search");
+	          JButton order_2 = new JButton("\u641C\u7D22");
 	          order_2.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent e) {
 	          		String choice =""+comboBox.getSelectedItem();
@@ -292,7 +292,7 @@ public class load_in extends JFrame {
 
 		          	}
 		          });
-	          order_2.setBounds(271, 216, 84, 23);
+	          order_2.setBounds(271, 234, 84, 23);
 	          contentPane.add(order_2);
 	          
 	          JButton btnNewButton = new JButton("Home");
@@ -304,6 +304,11 @@ public class load_in extends JFrame {
 	          });
 	          btnNewButton.setBounds(64, 303, 75, 23);
 	          contentPane.add(btnNewButton);
+	          
+	          JLabel label = new JLabel("\u5165\u5E93");
+	          label.setFont(new Font("¿¬Ìå", Font.PLAIN, 18));
+	          label.setBounds(199, 37, 82, 23);
+	          contentPane.add(label);
 	          
 	          
 	         

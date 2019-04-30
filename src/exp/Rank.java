@@ -45,7 +45,7 @@ public class Rank extends JFrame {
 		frame.setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblRank = new JLabel("RANK");
+		JLabel lblRank = new JLabel("\u6392\u540D");
 		lblRank.setFont(new Font("»ªÎÄ¿¬Ìå", Font.PLAIN, 18));
 		lblRank.setBounds(124, 30, 67, 24);
 		contentPane.add(lblRank);

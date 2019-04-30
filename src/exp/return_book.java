@@ -146,7 +146,7 @@ public class return_book extends JFrame {
 	          btnNewButton_1.setBounds(354, 296, 70, 23);
 	          contentPane.add(btnNewButton_1);
 	          
-	          JLabel lblUnpaid = new JLabel("unpaid");
+	          JLabel lblUnpaid = new JLabel("\u672A\u4ED8\u6B3E\u5217\u8868");
 	          lblUnpaid.setFont(new Font("»ªÎÄ¿¬Ìå", Font.PLAIN, 18));
 	          lblUnpaid.setBounds(200, 10, 97, 25);
 	          contentPane.add(lblUnpaid);
@@ -161,7 +161,7 @@ public class return_book extends JFrame {
 	          comboBox.setBounds(64, 216, 84, 23);
 	          contentPane.add(comboBox);
 	          
-	          JButton btnPay = new JButton("return");
+	          JButton btnPay = new JButton("\u9000\u8D27");
 	          btnPay.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent e) {
 	          	int size=1000;
@@ -221,7 +221,7 @@ public class return_book extends JFrame {
 	          btnPay.setBounds(183, 262, 97, 23);
 	          contentPane.add(btnPay);
 	          
-	          JButton order_2 = new JButton("search");
+	          JButton order_2 = new JButton("\u641C\u7D22");
 	          order_2.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent e) {
 	          		String choice =""+comboBox.getSelectedItem();

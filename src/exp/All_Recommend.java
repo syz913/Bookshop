@@ -148,7 +148,7 @@ public class All_Recommend extends JFrame {
 	          btnNewButton_1.setBounds(375, 212, 70, 23);
 	          contentPane.add(btnNewButton_1);
 	          
-	          JLabel lblUnpaid = new JLabel("Recommend");
+	          JLabel lblUnpaid = new JLabel("\u603B\u4F53\u63A8\u8350");
 	          lblUnpaid.setForeground(Color.RED);
 	          lblUnpaid.setBackground(Color.RED);
 	          lblUnpaid.setFont(new Font("»ªÎÄ¿¬Ìå", Font.BOLD, 25));

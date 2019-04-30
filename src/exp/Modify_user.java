@@ -95,7 +95,7 @@ public class Modify_user extends JFrame {
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
-		JButton btnNewButton = new JButton("Modify");
+		JButton btnNewButton = new JButton("\u4FEE\u6539");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				String t1=""+data1.getText();

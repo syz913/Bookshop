@@ -89,7 +89,7 @@ public class Modify_book extends JFrame {
 		contentPane.add(data3);
 		data3.setColumns(10);
 		
-		JButton btnNewButton = new JButton("Modify");
+		JButton btnNewButton = new JButton("\u4FEE\u6539");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				String t1=""+data1.getText();//ISBN

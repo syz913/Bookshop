@@ -150,7 +150,7 @@ public class Pay_money extends JFrame {
 	          btnNewButton_1.setBounds(367, 301, 70, 23);
 	          contentPane.add(btnNewButton_1);
 	          
-	          JLabel lblUnpaid = new JLabel("Import_list");
+	          JLabel lblUnpaid = new JLabel("\u8FDB\u8D27\u5355");
 	          lblUnpaid.setFont(new Font("»ªÎÄ¿¬Ìå", Font.PLAIN, 18));
 	          lblUnpaid.setBounds(200, 10, 97, 25);
 	          contentPane.add(lblUnpaid);
@@ -170,7 +170,7 @@ public class Pay_money extends JFrame {
 	          contentPane.add(textField_1);
 	          textField_1.setColumns(10);
 	          
-	          JButton btnPay = new JButton("Pay");
+	          JButton btnPay = new JButton("\u4ED8\u6B3E");
 	          btnPay.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent e) {
 	          	int size=2000;
@@ -238,7 +238,7 @@ public class Pay_money extends JFrame {
 	          btnPay.setBounds(200, 262, 97, 23);
 	          contentPane.add(btnPay);
 	          
-	          JButton order_2 = new JButton("search");
+	          JButton order_2 = new JButton("\u641C\u7D22");
 	          order_2.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent e) {
 	          		String choice =""+comboBox.getSelectedItem();

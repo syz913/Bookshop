@@ -71,19 +71,19 @@ public class insert_user extends JFrame {
 		label.setBounds(159, 38, 112, 23);
 		contentPane.add(label);
 		
-		JLabel lblNewLabel = new JLabel("ID");
+		JLabel lblNewLabel = new JLabel("\u5DE5\u53F7");
 		lblNewLabel.setBounds(99, 91, 58, 15);
 		contentPane.add(lblNewLabel);
 		
-		JLabel lblAge = new JLabel("name");
+		JLabel lblAge = new JLabel("\u59D3\u540D");
 		lblAge.setBounds(199, 91, 38, 15);
 		contentPane.add(lblAge);
 		
-		JLabel lblId = new JLabel("password");
+		JLabel lblId = new JLabel("\u5BC6\u7801");
 		lblId.setBounds(298, 91, 58, 15);
 		contentPane.add(lblId);
 		
-		JLabel lblPassword = new JLabel("gender");
+		JLabel lblPassword = new JLabel("\u6027\u522B");
 		lblPassword.setBounds(68, 164, 58, 15);
 		contentPane.add(lblPassword);
 	
@@ -99,7 +99,7 @@ public class insert_user extends JFrame {
 		textPane_1.setBounds(184, 116, 73, 21);
 		contentPane.add(textPane_1);
 		
-		JLabel lblNewLabel_1 = new JLabel("salary");
+		JLabel lblNewLabel_1 = new JLabel("\u5DE5\u8D44");
 		lblNewLabel_1.setBounds(278, 164, 58, 15);
 		contentPane.add(lblNewLabel_1);
 		
@@ -113,7 +113,7 @@ public class insert_user extends JFrame {
 		comboBox.setBounds(114, 160, 48, 23);
 		contentPane.add(comboBox);
 		
-		JButton btnInsert = new JButton("insert");
+		JButton btnInsert = new JButton("\u6DFB\u52A0");
 		btnInsert.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				String t1=""+textPane.getText();//ID
@@ -177,7 +177,7 @@ public class insert_user extends JFrame {
 		btnNewButton.setBounds(288, 249, 58, 23);
 		contentPane.add(btnNewButton);
 		
-		JLabel lblAge_1 = new JLabel("age");
+		JLabel lblAge_1 = new JLabel("\u5E74\u9F84");
 		lblAge_1.setBounds(172, 164, 58, 15);
 		contentPane.add(lblAge_1);
 		

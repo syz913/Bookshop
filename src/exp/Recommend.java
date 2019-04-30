@@ -125,11 +125,11 @@ public class Recommend extends JFrame {
 	          btnNewButton_1.setBounds(200, 212, 70, 23);
 	          contentPane.add(btnNewButton_1);
 	          
-	          JLabel lblUnpaid = new JLabel("Recommend");
+	          JLabel lblUnpaid = new JLabel("\u4E66\u7C4D\u63A8\u8350");
 	          lblUnpaid.setForeground(Color.RED);
 	          lblUnpaid.setBackground(Color.RED);
 	          lblUnpaid.setFont(new Font("»ªÎÄ¿¬Ìå", Font.BOLD, 25));
-	          lblUnpaid.setBounds(110, 38, 155, 25);
+	          lblUnpaid.setBounds(115, 41, 155, 25);
 	          contentPane.add(lblUnpaid);
 	          
 	          JButton btnHome = new JButton("Home");

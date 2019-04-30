@@ -141,7 +141,7 @@ public class view_user extends JFrame {
 	          }
 	          ));
 	          
-	          JButton order_1 = new JButton("orderby_id");
+	          JButton order_1 = new JButton("\u6309ID\u6392\u5E8F");
 	          order_1.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent e) {
 	          		int size=200;
@@ -223,7 +223,7 @@ public class view_user extends JFrame {
 	          order_1.setBounds(62, 199, 124, 23);
 	          contentPane.add(order_1);
 	          
-	          JButton order_2 = new JButton("orderby_salary");
+	          JButton order_2 = new JButton("\u6309\u5DE5\u8D44\u6392\u5E8F");
 	          order_2.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent e) {
 	          		int size=200;

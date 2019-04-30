@@ -56,7 +56,7 @@ public class Sale_book extends JFrame {
 		frame.setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblSalebook = new JLabel("Sale_book");
+		JLabel lblSalebook = new JLabel("\u5356\u4E66");
 		lblSalebook.setFont(new Font("»ªÎÄ¿¬Ìå", Font.PLAIN, 18));
 		lblSalebook.setBounds(174, 37, 99, 24);
 		contentPane.add(lblSalebook);
@@ -79,7 +79,7 @@ public class Sale_book extends JFrame {
 		contentPane.add(textField_1);
 		textField_1.setColumns(10);
 		
-		JButton btnSale = new JButton("Sale");
+		JButton btnSale = new JButton("\u786E\u8BA4");
 		btnSale.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			String t1=""+textField.getText();//ISBN

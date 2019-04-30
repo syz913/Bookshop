@@ -45,9 +45,9 @@ public class Book_function extends JFrame {
 		frame.setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblBook = new JLabel("Book ");
+		JLabel lblBook = new JLabel("\u4E66\u7C4D\u7BA1\u7406");
 		lblBook.setFont(new Font("»ªÎÄ¿¬Ìå", Font.PLAIN, 18));
-		lblBook.setBounds(202, 52, 58, 15);
+		lblBook.setBounds(182, 52, 94, 15);
 		contentPane.add(lblBook);
 		
 		JButton button = new JButton("\u8FDB\u8D27");

@@ -109,26 +109,28 @@ public class view_book extends JFrame {
                   a4[a14]=rs.getString("price");
                   a5[a15]=rs.getString("stock");
                   a6[a16]=rs.getString("publisher");
+                  a7[a17]=rs.getString("author");
                   
                   a12+=20;
                   a13+=10;
                   a14+=10;
                   a15+=10;
                   a16+=10;
+                  a17+=10;
 	          }
 	          table.setModel(new DefaultTableModel(
 	          	new Object[][] {
-	          		{a2[0], a3[0],a4[0],a5[0],a6[0]},
-      				{a2[20], a3[10],a4[10],a5[10],a6[10]},
-      				{a2[40], a3[20],a4[20],a5[20],a6[20]},
-      				{a2[60], a3[30],a4[30],a5[30],a6[30]},
-      				{a2[80], a3[40],a4[40],a5[40],a6[40]},
-      				{a2[100], a3[50],a4[50],a5[50],a6[50]},
-      				{a2[120], a3[60],a4[60],a5[60],a6[60]},
-      				{a2[140], a3[70],a4[70],a5[70],a6[70]},
+	          		{a2[0], a3[0],a7[0],a4[0],a5[0],a6[0]},
+      				{a2[20], a3[10],a7[10],a4[10],a5[10],a6[10]},
+      				{a2[40], a3[20],a7[20],a4[20],a5[20],a6[20]},
+      				{a2[60], a3[30],a7[30],a4[30],a5[30],a6[30]},
+      				{a2[80], a3[40],a7[40],a4[40],a5[40],a6[40]},
+      				{a2[100], a3[50],a7[50],a4[50],a5[50],a6[50]},
+      				{a2[120], a3[60],a7[60],a4[60],a5[60],a6[60]},
+      				{a2[140], a3[70],a7[70],a4[70],a5[70],a6[70]},
 	  	          	},
 	  	          	new String[] {
-	  	          		"ISBN", "\u4E66\u540D", "\u5355\u4EF7", "\u6570\u91CF","出版社"
+	  	          		"ISBN", "\u4E66\u540D","作者", "\u5355\u4EF7", "\u6570\u91CF","出版社"
 	          	}
 	          ));
 	          table.getColumnModel().getColumn(1).setPreferredWidth(88);
@@ -144,7 +146,7 @@ public class view_book extends JFrame {
 	          btnNewButton_1.setBounds(352, 351, 70, 23);
 	          contentPane.add(btnNewButton_1);
 	          
-	          JLabel lblUnpaid = new JLabel("Book");
+	          JLabel lblUnpaid = new JLabel("\u4E66\u7C4D");
 	          lblUnpaid.setFont(new Font("华文楷体", Font.PLAIN, 18));
 	          lblUnpaid.setBounds(200, 10, 97, 25);
 	          contentPane.add(lblUnpaid);
@@ -155,11 +157,11 @@ public class view_book extends JFrame {
 	          textField.setColumns(10);
 	          
 	          JComboBox comboBox = new JComboBox();
-	          comboBox.setModel(new DefaultComboBoxModel(new String[] {"ISBN", "book_name","publisher"}));
+	          comboBox.setModel(new DefaultComboBoxModel(new String[] {"ISBN", "book_name","author","publisher"}));
 	          comboBox.setBounds(64, 216, 84, 23);
 	          contentPane.add(comboBox);
 	          
-	          JButton order_2 = new JButton("search");
+	          JButton order_2 = new JButton("\u67E5\u8BE2");
 	          order_2.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent e) {
 	          		String choice =""+comboBox.getSelectedItem();
@@ -203,7 +205,7 @@ public class view_book extends JFrame {
 		                  a5[a15]=rs.getString("stock");
 		                  a6[a16]=rs.getString("publisher");
 
-		                  a7[a17]="1";
+		                  a7[a17]=rs.getString("author");
 		                  
 		                  a12+=20;
 		                  a13+=10;
@@ -214,17 +216,18 @@ public class view_book extends JFrame {
 		  	          }
 		  	          table.setModel(new DefaultTableModel(
 		  	          	new Object[][] {
-		  	          	{a2[0], a3[0],a4[0],a5[0],a6[0]},
-	      				{a2[20], a3[10],a4[10],a5[10],a6[10]},
-	      				{a2[40], a3[20],a4[20],a5[20],a6[20]},
-	      				{a2[60], a3[30],a4[30],a5[30],a6[30]},
-	      				{a2[80], a3[40],a4[40],a5[40],a6[40]},
-	      				{a2[100], a3[50],a4[50],a5[50],a6[50]},
-	      				{a2[120], a3[60],a4[60],a5[60],a6[60]},
-	      				{a2[140], a3[70],a4[70],a5[70],a6[70]},
+		  	          	{a2[0], a3[0],a7[0],a4[0],a5[0],a6[0]},
+	      				{a2[20], a3[10],a7[10],a4[10],a5[10],a6[10]},
+	      				{a2[40], a3[20],a7[20],a4[20],a5[20],a6[20]},
+	      				{a2[60], a3[30],a7[30],a4[30],a5[30],a6[30]},
+	      				{a2[80], a3[40],a7[40],a4[40],a5[40],a6[40]},
+	      				{a2[100], a3[50],a7[50],a4[50],a5[50],a6[50]},
+	      				{a2[120], a3[60],a7[60],a4[60],a5[60],a6[60]},
+	      				{a2[140], a3[70],a7[70],a4[70],a5[70],a6[70]},
 		  	          	},
 		  	          	new String[] {
-		  	          		"ISBN", "\u4E66\u540D", "\u5355\u4EF7", "\u6570\u91CF","publisher"
+		  	          		"ISBN", "\u4E66\u540D","作者",
+		  	          		"\u5355\u4EF7", "\u6570\u91CF","出版社"
 		  	          	
 		  	          }
 		 			          ));
@@ -238,7 +241,7 @@ public class view_book extends JFrame {
 	          order_2.setBounds(271, 216, 84, 23);
 	          contentPane.add(order_2);
 	          
-	          JButton btnNewButton = new JButton("discount");
+	          JButton btnNewButton = new JButton("\u6253\u6298");
 	          btnNewButton.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent arg0) {
 	          		String choice =""+comboBox.getSelectedItem();
@@ -285,7 +288,7 @@ public class view_book extends JFrame {
 	          btnHome.setBounds(64, 351, 77, 23);
 	          contentPane.add(btnHome);
 	          
-	          JButton btnNewButton_2 = new JButton("Modify");
+	          JButton btnNewButton_2 = new JButton("\u4FEE\u6539");
 	          btnNewButton_2.addActionListener(new ActionListener() {
 	          	public void actionPerformed(ActionEvent e) {
 	          		frame.dispose();

@@ -75,7 +75,7 @@ public class low_function extends JFrame {
 		btnExit.setBounds(264, 205, 68, 23);
 		contentPane.add(btnExit);
 		
-		JButton btnBookfunction = new JButton("Book_function");
+		JButton btnBookfunction = new JButton("\u4E66\u7C4D\u7BA1\u7406");
 		btnBookfunction.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				frame.dispose();

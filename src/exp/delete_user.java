@@ -94,7 +94,7 @@ public class delete_user extends JFrame {
 		
 		scrollPane.setViewportView(table);
 		
-		JButton btnNewButton = new JButton("delete");
+		JButton btnNewButton = new JButton("\u89E3\u96C7");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				String t1=""+data1.getText();
@@ -167,7 +167,7 @@ public class delete_user extends JFrame {
 		btnNewButton_1.setBounds(258, 298, 58, 23);
 		contentPane.add(btnNewButton_1);
 		
-		JButton btnVerify = new JButton("Verify");
+		JButton btnVerify = new JButton("\u786E\u8BA4");
 		btnVerify.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				EnsureDialog flag = new EnsureDialog();

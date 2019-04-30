@@ -125,11 +125,11 @@ public class view_bill extends JFrame {
 	          btnNewButton_1.setBounds(200, 212, 70, 23);
 	          contentPane.add(btnNewButton_1);
 	          
-	          JLabel lblUnpaid = new JLabel("Bill");
+	          JLabel lblUnpaid = new JLabel("\u8D26\u5355");
 	          lblUnpaid.setForeground(Color.BLACK);
 	          lblUnpaid.setBackground(Color.BLACK);
 	          lblUnpaid.setFont(new Font("»ªÎÄ¿¬Ìå", Font.BOLD, 25));
-	          lblUnpaid.setBounds(153, 53, 155, 25);
+	          lblUnpaid.setBounds(147, 54, 155, 25);
 	          contentPane.add(lblUnpaid);
 	          
 	          JButton btnHome = new JButton("Home");

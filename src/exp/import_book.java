@@ -61,9 +61,9 @@ public class import_book extends JFrame {
 		frame.setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblSalebook = new JLabel("Import_book");
+		JLabel lblSalebook = new JLabel("\u8FDB\u8D27");
 		lblSalebook.setFont(new Font("»ªÎÄ¿¬Ìå", Font.PLAIN, 18));
-		lblSalebook.setBounds(147, 31, 99, 24);
+		lblSalebook.setBounds(171, 31, 99, 24);
 		contentPane.add(lblSalebook);
 		
 		JLabel lblNewLabel = new JLabel("ISBN");
@@ -93,7 +93,7 @@ public class import_book extends JFrame {
 		contentPane.add(textField_2);
 		textField_2.setColumns(10);
 		
-		JButton btnSale = new JButton("import");
+		JButton btnSale = new JButton("\u786E\u8BA4");
 		btnSale.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				int size=1000;
